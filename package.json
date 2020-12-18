@@ -1,6 +1,6 @@
 {
   "name": "node-blue-node-crestron-serial",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This package provides nodes to get and set Crestron variables over a serial connection.",
   "homepage": "https://github.com/Homegear/node-blue-node-crestron-serial",
   "node-blue": {
