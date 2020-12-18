@@ -1,0 +1,18 @@
+{
+  "name": "node-blue-node-crestron-serial",
+  "version": "1.0.1",
+  "description": "This package provides nodes to get and set Crestron variables over a serial connection.",
+  "homepage": "https://github.com/Homegear/node-blue-node-crestron-serial",
+  "node-blue": {
+    "maxThreadCounts": {
+      "crestron-serial-in": 0,
+      "crestron-serial-out": 0,
+      "crestron-serial-port": 1
+    },
+    "nodes": {
+      "crestron-serial-in": "crestron-serial-in.so",
+      "crestron-serial-out": "crestron-serial-out.so",
+      "crestron-serial-port": "crestron-serial-port.so"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "crestron-serial-in": {
+    "label": {
+      "name": "Name",
+      "variables": "Variablen",
+      "type": "Typ",
+      "index": "Index"
+    }
+  },
+  "crestron-serial-out": {
+    "label": {
+      "name": "Name",
+      "variables": "Variablen",
+      "type": "Typ",
+      "index": "Index"
+    }
+  },
+  "crestron-serial-port": {
+    "help": "<p>Bietet Konfigurationsoptionen für eine serielle Schnittstelle zu Crestron.</p>",
+    "label": {
+      "serialport": "Serieller Port",
+      "settings": "Einstellung",
+      "baudrate": "Baud Rate",
+      "databits": "Data Bits",
+      "parity": "Parität",
+      "stopbits": "Stop Bits"
+    },
+    "placeholder": {
+      "serialport": "Zum Beispiel: /dev/ttyUSB0"
+    },
+    "parity": {
+      "none": "Keine",
+      "even": "Gerade",
+      "odd": "Ungerade"
+    }
+  }
+}
